@@ -1,0 +1,148 @@
+body {
+  color: black !important;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #7752FE, #C2D9FF, #8E8FFA);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-color: #C2D9FF;
+  --bs-nav-pills-link-active-bg: #0e1310;
+  --bs-nav-link-color: #0e1310;
+  --bs-nav-link-hover-color: #C2D9FF;
+}
+
+#hero-image {
+  border-radius: 50%;
+}
+
+.btn-dark {
+  --bs-btn-hover-border-color: #C2D9FF;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #C2D9FF;
+}
+
+#about-me {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem; 
+  padding-bottom: 6rem;
+}
+
+.about-me-image img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 6rem;
+  padding-left: 6rem;
+}
+
+.about-me-text {
+  padding-top: 6rem;
+  padding-left: 6rem;
+  max-width: 600px;
+  align-self: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #about-me {
+      grid-template-columns: 1fr; 
+  }
+
+  .about-me-image img {
+padding: 3%;
+  }
+  .about-me-text {
+    padding:3%;
+}
+}
+
+#education-experience {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1500px; 
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 15px; 
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px; 
+}
+
+.column {
+  flex: 1;
+  padding: 0 15px; 
+}
+
+.edex {
+  background-color: white; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column; 
+  }
+
+  .column {
+    padding: 3%; 
+    margin: 0; 
+  }
+}
+
+#justdospeak {
+  padding: 3%;
+}
+
+#just {
+padding-left: 0%;
+margin-bottom: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+

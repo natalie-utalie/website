@@ -1,7 +1,3 @@
-body {
-  color: black !important;
-}
-
 .gradient-background {
   background: linear-gradient(300deg, #7752FE, #C2D9FF, #8E8FFA);
   background-size: 180% 180%;
@@ -142,7 +138,10 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
-
+.text-body-secondary {
+  color: black !important;
+}
 
